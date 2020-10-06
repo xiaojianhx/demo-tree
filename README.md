@@ -5,6 +5,7 @@
 ##### 第二部分：原理介绍
 ###### 基本结构
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201005140043591.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpYW9qaWFuaHg=,size_16,color_FFFFFF,t_70#pic_center)
+
 每个节点有三个属性，节点名称、左属性、右属性。其中**左属性**、**右属性**为关键属性。
 ```java
 public class Node {
@@ -96,6 +97,7 @@ public class Rlat {
 |  3|连城诀  |
 |  4|天龙八部  |
 |  5|射雕英雄传  |
+
 评论表数据如下：
 |ID | 评论内容|
 |--|--|
@@ -104,6 +106,7 @@ public class Rlat {
 |  3|飞狐外传真的不错  |
 |  4|天龙八部真好  |
 |  5|天龙八部太好了  |
+
 评论关系表数据如下：
 |ID | 根级ID|父级ID|业务ID|左|右|层级|儿子数量|后代数量|
 |--|--|--|--|--|--|--|--|--|--|--|--|
